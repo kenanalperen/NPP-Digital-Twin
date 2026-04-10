@@ -14,7 +14,8 @@
 
 3. **GUI**  
    ![GUI](images/Screenshot from 2026-04-10 11-16-59.png)
-   *GUI of the game showing four screens*   
+   *GUI of the game showing four screens*
+   
 
 ## How to Open the Simulation
 
