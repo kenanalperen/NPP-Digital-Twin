@@ -4,7 +4,7 @@
 
 This digital twin was built from real-world data collected during the [EnRicH 2025](https://enrich.european-robotics.eu/) robotics hackathon and is part of the open-source release of the **RAICAM EU Project**. It supports hardware-in-the-loop testing of UAV and UGV platforms without requiring access to a physical nuclear facility.
 
-> **Associated Paper:** *Low-Cost Rapid-Development Air-Ground Robotic Solution for Nuclear Power Plant Inspection* — presented at SSRR 2025.
+> **Associated Paper:** *Low-Cost Rapid-Development Air-Ground Robotic Solution for Nuclear Power Plant Inspection* presented at SSRR 2025.
 
 ---
 
