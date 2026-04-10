@@ -12,6 +12,10 @@
    ![UAV POV](images/UAV_POV_2.png)
    *POV of the UAV*   
 
+3. **GUI**  
+   ![GUI](images/Screenshot from 2026-04-10 11-16-59.png)
+   *GUI of the game showing four screens*   
+
 ## How to Open the Simulation
 
 1. **Download the Unity package**  
