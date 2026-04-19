@@ -44,13 +44,22 @@ The result is a Unity environment that replicates the multi-level halls, steel p
 2. **Create a new Unity 3D (URP) project**
    In Unity Hub, create a new project using the **3D (URP)** template. If you use the wrong template, shaders and lighting will not display correctly.
 
-3. **Import the Unity package**
+3. **Add the following two packages to the project**
+   The first one is for being able to import gltf files, the second one is for inverse kinematics of the robot manipulator
+
+   Open Unity → Window → Package Management →  **Package Manager** → **My Assets** → **+ (Install package from Git URL)**  
+   **Enter:**  https://github.com/Preliy/Flange.git#upm
+
+   Open Unity → Window → Package Management →  **Package Manager** → **My Assets** → **+ (Install package by technical name)** 
+   **Enter:** com.unity.cloud.gltfast
+
+5. **Import the Unity package**
    With your project open, go to **Assets → Import Package → Custom Package...** and select `prototype_v1.unitypackage`. Import all assets when prompted.
 
-4. **Open the main scene**
+6. **Open the main scene**
    In the Project window, navigate to the `Scenes/` folder and open the main NPP scene.
 
-5. **Explore the simulation**
+7. **Explore the simulation**
    Press **Play** to enter the simulation. You can switch between the UGV and UAV viewpoints and interact with the Zwentendorf NPP digital twin.
 
 ---
