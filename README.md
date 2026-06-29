@@ -42,7 +42,7 @@ The result is a Unity environment that replicates the multi-level halls, steel p
 
 ---
 
-### Step 1 — Download the Unity Package
+### Step 1: Download the Unity Package
 
 Download `npp_27_may.unitypackage` from the link below:
 
@@ -50,17 +50,16 @@ Download `npp_27_may.unitypackage` from the link below:
 
 ---
 
-### Step 2 — Create a New Unity Project
+### Step 2: Create a New Unity Project
 
 1. Open **Unity Hub** and click **New Project**
 2. Select the **3D (URP)** template
 3. Name your project and click **Create**
 
-> ⚠️ **Important:** You must use the **3D (URP)** template. Using the wrong template will cause shaders and lighting to display incorrectly.
-
+> ⚠️ **Important:** Use the **3D (URP)** template.
 ---
 
-### Step 3 — Install Required Packages
+### Step 3: Install Required Packages
 
 Two packages are required before importing:
 
@@ -79,7 +78,7 @@ Two packages are required before importing:
 
 ---
 
-### Step 4 — Import the Unity Package
+### Step 4: Import the Unity Package
 
 1. In Unity, go to **Assets → Import Package → Custom Package...**
 2. Select the downloaded `npp_27_may.unitypackage`
@@ -87,13 +86,13 @@ Two packages are required before importing:
 
 ---
 
-### Step 5 — Open the Main Scene
+### Step 5: Open the Main Scene
 
 In the **Project** window, navigate to the `Scenes/` folder and open the main **NPP scene**.
 
 ---
 
-### Step 6 — Explore the Simulation
+### Step 6: Explore the Simulation
 
 Press ▶ **Play** to enter the simulation. You can:
 - Switch between **UGV** and **UAV** viewpoints
