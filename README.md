@@ -35,32 +35,79 @@ The result is a Unity environment that replicates the multi-level halls, steel p
 
 ---
 
-
 ## How to Open the Simulation
 
-1. **Download the Unity package**
-   Download `prototype_v1.unitypackage` from the [Releases](../../releases) page.
+### Prerequisites
+- [Unity Hub](https://unity.com/download) installed, the simulation was created using editor version 6.4.
 
-2. **Create a new Unity 3D (URP) project**
-   In Unity Hub, create a new project using the **3D (URP)** template. If you use the wrong template, shaders and lighting will not display correctly.
+---
 
-3. **Add the following two packages to the project**
-   The first one is for being able to import gltf files, the second one is for inverse kinematics of the robot manipulator
+### Step 1 — Download the Unity Package
 
-   Open Unity → Window → Package Management →  **Package Manager** → **My Assets** → **+ (Install package from Git URL)**  
-   **Enter:**  https://github.com/Preliy/Flange.git#upm
+Download `npp_27_may.unitypackage` from the link below:
 
-   Open Unity → Window → Package Management →  **Package Manager** → **My Assets** → **+ (Install package by technical name)** 
-   **Enter:** com.unity.cloud.gltfast
+📦 **[Download Unity Package](https://uweacuk-my.sharepoint.com/:u:/g/personal/alperen_kenan_uwe_ac_uk/IQAzDemfW5iCRat51aQI4O8HAY1MBfwoaTTKCyvtPCEedw4?e=SP0WWR)**
 
-5. **Import the Unity package**
-   With your project open, go to **Assets → Import Package → Custom Package...** and select `prototype_v1.unitypackage`. Import all assets when prompted.
+---
 
-6. **Open the main scene**
-   In the Project window, navigate to the `Scenes/` folder and open the main NPP scene.
+### Step 2 — Create a New Unity Project
 
-7. **Explore the simulation**
-   Press **Play** to enter the simulation. You can switch between the UGV and UAV viewpoints and interact with the Zwentendorf NPP digital twin.
+1. Open **Unity Hub** and click **New Project**
+2. Select the **3D (URP)** template
+3. Name your project and click **Create**
+
+> ⚠️ **Important:** You must use the **3D (URP)** template. Using the wrong template will cause shaders and lighting to display incorrectly.
+
+---
+
+### Step 3 — Install Required Packages
+
+Two packages are required before importing:
+
+| Package | Purpose | Install Method |
+|---|---|---|
+| `com.unity.cloud.gltfast` | Import `.gltf` 3D model files | By technical name |
+| `Flange` | Inverse kinematics for the robot manipulator | Git URL |
+
+**Install `com.unity.cloud.gltfast`:**
+> Window → Package Manager → **+** → *Install package by name*
+> Enter: `com.unity.cloud.gltfast`
+
+**Install `Flange` (IK):**
+> Window → Package Manager → **+** → *Install package from Git URL*
+> Enter: `https://github.com/Preliy/Flange.git#upm`
+
+---
+
+### Step 4 — Import the Unity Package
+
+1. In Unity, go to **Assets → Import Package → Custom Package...**
+2. Select the downloaded `npp_27_may.unitypackage`
+3. Click **Import All** when prompted
+
+---
+
+### Step 5 — Open the Main Scene
+
+In the **Project** window, navigate to the `Scenes/` folder and open the main **NPP scene**.
+
+---
+
+### Step 6 — Explore the Simulation
+
+Press ▶ **Play** to enter the simulation. You can:
+- Switch between **UGV** and **UAV** viewpoints
+- Interact with the **Zwentendorf NPP** digital twin
+
+---
+
+### 📎 Additional Resources
+
+| Resource | Description |
+|---|---|
+| `display_tutorial.mp4` | Video walkthrough of the UI |
+| `Control_Guidelines (1).pdf` | Robot control instructions |
+| *(map PDF)* | Ground floor map of the NPP |
 
 ---
 
